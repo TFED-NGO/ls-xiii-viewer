@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/boulogne-viewer",
+            "outputPath": "dist/ls-xiii-viewer",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -132,13 +132,13 @@
           "options": {},
           "configurations": {
             "production": {
-              "browserTarget": "boulogne-viewer:build:production"
+              "browserTarget": "ls-xiii-viewer:build:production"
             },
             "release": {
-              "browserTarget": "boulogne-viewer:build:release"
+              "browserTarget": "ls-xiii-viewer:build:release"
             },
             "development": {
-              "browserTarget": "boulogne-viewer:build:development"
+              "browserTarget": "ls-xiii:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -146,7 +146,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "boulogne-viewer:build"
+            "browserTarget": "ls-xiii-viewer:build"
           }
         },
         "test": {
@@ -179,10 +179,10 @@
           },
           "configurations": {
             "production": {
-              "devServerTarget": "boulogne-viewer:serve:production"
+              "devServerTarget": "ls-xiii-viewer:serve:production"
             },
             "development": {
-              "devServerTarget": "boulogne-viewer:serve:development"
+              "devServerTarget": "ls-xiii-viewer:serve:development"
             }
           },
           "defaultConfiguration": "development"
@@ -199,7 +199,7 @@
       }
     }
   },
-  "defaultProject": "boulogne-viewer",
+  "defaultProject": "ls-xiii-viewer",
   "cli": {
     "analytics": "c373e515-eb44-4b1b-85c7-56dd668954af",
     "defaultCollection": "@angular-eslint/schematics"
