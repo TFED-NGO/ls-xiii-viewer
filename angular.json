@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "boulogne-viewer": {
+    "ls-xiii-viewer": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
